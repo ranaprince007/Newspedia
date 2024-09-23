@@ -1,0 +1,106 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.newscontainer{
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+   justify-content: center;
+   align-items: center;
+  
+}
+.container{
+    
+    /* border: 1px solid black; */
+    margin: 3rem 3.4rem;
+    height:45vh;
+    width:18%;
+    display: inline-block;
+    border-radius: 5px;
+}
+.image{
+    height:60%;
+    width:100%;
+}
+.author{
+    margin: 0 0.5rem;
+}
+.heading{
+    font-family: sans-serif;
+    color:black;
+    margin:0;
+    margin-top:0.3rem ;
+    margin-left: 0.5rem;
+
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   
+}
+.description{
+    font-family: sans-serif;
+    color: black;
+    font-weight: 300;
+    margin:0.5rem;
+
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.btn{
+    cursor: pointer;
+    margin: 0.5rem;
+    height:2rem;
+    width:6rem;
+    background-color: rgb(210, 144, 12);
+    border: 1px solid rgb(5, 5, 7);
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+.button{
+    cursor: pointer;
+    position: relative;
+    margin:1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.next{
+    background-color: blue;
+    color: aqua;
+    position:absolute;
+    right:2rem;
+    height:2rem;
+    width:6rem;
+    border: 1px solid rgb(33, 11, 84);
+    border-radius: 2rem;
+  
+}
+.previous{
+    background-color: blue;
+    color: aqua;
+    border: 1px solid rgb(33, 11, 84);
+    position:absolute;
+    left:2rem;
+    height:2rem;
+    width:6rem;
+    border-radius: 2rem;
+   
+}
+
+.next:hover{
+    background-color: orangered;
+}
+.previous:hover{
+    background-color: orangered;
+}

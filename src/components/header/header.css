@@ -1,0 +1,99 @@
+.logo-ad{
+    margin:1rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    height:15vh;
+    width: 20vw;
+}
+.menubar{
+    background-color: rgb(16, 22, 4);
+    height: 3rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+   
+    
+}
+.menubar ul li button{
+    cursor: pointer;
+    background-color:   rgb(16, 22, 4);
+    margin: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(30, 230, 240);
+    border: 0 solid  rgb(16, 22, 4) ;
+}
+.menubar ul li button:hover{
+     
+    color:orangered;
+    transition:0.5s ;
+}
+.barIco{
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: none;
+    color:#fff;
+    display:none;
+    border:none;
+}
+
+
+@media screen and (max-width:1000px){
+    .logo-ad{
+        margin:1rem; 
+    }
+    .menubar{
+        background-color: rgb(16, 22, 4);
+        height: 3rem;
+        width: 100vw;
+        display: flex;
+        justify-content: start;
+        text-align: center;
+        position: relative;
+    }
+    .ad {
+         display: none;
+    }
+    .barIco{
+        cursor: pointer;
+        display:block;
+        margin-left: 2rem;
+    }
+    .flex{
+        display: none;
+    
+    }
+    .navbar{
+        
+        background-color: orangered;
+        position: absolute;
+        height:55vh;
+        width:100vw;
+        text-decoration: none;
+        list-style-type:none;
+        top:2rem;
+
+    }
+    .navbar li{
+        margin: 1rem;
+        text-align: left;
+    }
+    .menubar ul li button:hover{
+        color:blue;
+        transition: 0.5s;
+    }
+    .barIco:hover{
+          color: rgb(116, 148, 106);
+    }
+   
+}

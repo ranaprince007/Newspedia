@@ -1,0 +1,48 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.footercontainer{
+    margin: 0;
+    background-color: black;
+    height:12rem;
+    width:100%;
+    position: relative;
+}
+.name h2{
+    margin:1rem 0;
+    color: aqua;
+    position: absolute;
+    bottom: 0;
+    left:43%;
+    transition: 0.5s;
+}
+.name h2:hover{
+    color:orange;
+}
+.name ul {color: aqua;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.name ul li{
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin:2rem
+}
+.name ul li a{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: aqua;
+    transition: 0.5s;
+   
+}
+.name ul li a:hover{
+    
+    font-size: 2rem;
+    color: rgb(32, 7, 122);
+    
+   
+}
